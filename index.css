@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+
+.big-snow,
+.medium-snow {
+  position: relative;
+}
+
+.big-snow span {
+  color: white;
+  display: inline-block;
+  font-size: 60px;
+  filter: blur(5px);
+}
+
+@keyframes big-snow-falling {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  100% {
+    transform: translate(20vw, 100vh);
+  }
+}
+.big-snow1 {
+  position: absolute;
+  animation: big-snow-falling 7s infinite linear;
+}
+
+.big-snow2 {
+  position: absolute;
+  top: -80px;
+  left: 25vw;
+  animation: big-snow-falling 7s infinite 3s linear;
+}
+
+.big-snow3 {
+  position: absolute;
+  top: -80px;
+  left: 60vw;
+  animation: big-snow-falling 7s infinite 5s linear;
+}
+
+.big-snow4 {
+  position: absolute;
+  top: -80px;
+  left: 80vw;
+  animation: big-snow-falling 7s infinite 4s linear;
+}
+
+.big-snow5 {
+  position: absolute;
+  top: -80px;
+  left: 45vw;
+  animation: big-snow-falling 7s infinite 0.7s linear;
+}
+
+.big-snow6 {
+  position: absolute;
+  top: -80px;
+  left: 70vw;
+  animation: big-snow-falling 7s infinite 3s linear;
+}
+
+.big-snow7 {
+  position: absolute;
+  top: -80px;
+  left: 25vw;
+  animation: big-snow-falling 7s infinite 6s linear;
+}
+
+.big-snow8 {
+  position: absolute;
+  top: -80px;
+  left: 10vw;
+  animation: big-snow-falling 7s infinite 1.5s linear;
+}
+
+.big-snow9 {
+  position: absolute;
+  top: -80px;
+  left: 90vw;
+  animation: big-snow-falling 7s infinite 0.9s linear;
+}
+
+.big-snow10 {
+  position: absolute;
+  top: -80px;
+  left: 50vw;
+  animation: big-snow-falling 7s infinite 2.7s linear;
+}
+
+/* Medium Snow */
+.medium-snow span {
+  color: white;
+  display: inline-block;
+  font-size: 30px;
+  filter: blur(1px);
+}
+
+@keyframes medium-snow-falling {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  100% {
+    transform: translate(10vw, 100vh);
+  }
+}
+
+.medium-snow1 {
+  position: absolute;
+  top: -80px;
+  animation: medium-snow-falling 5s infinite 1s linear;
+}
+
+.medium-snow2 {
+  position: absolute;
+  top: -80px;
+  left: 50vw;
+  animation: medium-snow-falling 5s infinite linear;
+}
+
+.medium-snow3 {
+  position: absolute;
+  top: -80px;
+  left: 25vw;
+  animation: medium-snow-falling 5s infinite 3s linear;
+}
+
+.medium-snow4 {
+  position: absolute;
+  top: -80px;
+  left: 60vw;
+  animation: medium-snow-falling 5s infinite 0.5s linear;
+}
+
+.medium-snow5 {
+  position: absolute;
+  top: -80px;
+  left: 40vw;
+  animation: medium-snow-falling 5s infinite 3.5s linear;
+}
+
+.medium-snow6 {
+  position: absolute;
+  top: -80px;
+  left: 80vw;
+  animation: medium-snow-falling 5s infinite 1.5s linear;
+}
+
+.medium-snow7 {
+  position: absolute;
+  top: -80px;
+  left: 15vw;
+  animation: medium-snow-falling 5s infinite 3s linear;
+}
+
+.medium-snow8 {
+  position: absolute;
+  top: -80px;
+  left: 70vw;
+  animation: medium-snow-falling 5s infinite 4s linear;
+}
